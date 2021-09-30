@@ -363,9 +363,11 @@ form {
 }
 
 .contact-input:focus,
-.contact-textarea:focus {
+.contact-textarea:focus,
+.btn-submit:focus {
     border-color: hsl(var(--primary-red));
     box-shadow: 0 1px 6px hsla(0, 100%, 50%, 0.3);
+    transition: 0.5s;
 }
 
 .checkbox input {
@@ -410,7 +412,7 @@ form {
 }
 
 .btn-submit:hover,
-.btn-submit:focus {
+.checkbox span:hover {
     border: 1px solid hsl(var(--primary-red));
     box-shadow: 0 3px 6px hsla(0, 100%, 50%, 0.3);
     transition: 0.5s;
